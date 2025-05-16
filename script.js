@@ -7,10 +7,10 @@ ANSWERS = {
 }
 
 NEXT_PATH = {
-    1: "challenge_2.html",
-    2: "challenge_3.html",
-    3: "challenge_4.html",
-    4: "final.html",
+    1: "desafio_x/challenge_2.html",
+    2: "desafio_x/challenge_3.html",
+    3: "desafio_x/challenge_4.html",
+    4: "desafio_x/final.html",
 }
 
 
