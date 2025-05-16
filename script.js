@@ -15,6 +15,7 @@ NEXT_PATH = {
 
 
 const inputHTML = document.querySelector(".answer input")
+const btnHTML = document.querySelector(".answer-btn")
 
 function checkAnswer(stage){
     inputValue = inputHTML.value
@@ -34,3 +35,10 @@ function wrongAnswer(){
     alert("Resposta incorreta")
     inputHTML.value = ''
 }
+
+
+window.addEventListener("keyup", (e) => {
+    if (e.code == "Enter"){
+        btnHTML.click()
+    }
+})
