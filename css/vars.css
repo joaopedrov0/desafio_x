@@ -1,0 +1,7 @@
+:root{
+    --darkest_bg: #000;
+    --light_bg: #222;
+    --lightest_bg: #555;
+    --title-color: rgb(230, 230, 230);
+    --text-color: rgb(220, 220, 220);
+}
